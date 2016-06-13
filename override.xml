@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="tp-du"
+           fetch="git://github.com/tp-du/"/>
+
+  <remove-project path="art" name="platform/art" />
+  <remove-project path="bionic" name="android_bionic" />
+  <remove-project path="build" name="android_build" />
+  <remove-project path="frameworks/native" name="android_frameworks_native" />
+  <remove-project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" />
+  <remove-project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" />
+  <remove-project path="system/bt" name="android_system_bt" />
+  <remove-project path="system/core" name="android_system_core" />
+  <remove-project path="system/vold" name="android_system_vold" />
+  <remove-project path="vendor/du" name="android_vendor_du" />
+
+  <project path="art" name="android_art" remote="tp-du" revision="m-caf"/>
+  <project path="bionic" name="android_bionic" remote="tp-du" revision="m-caf"/>
+  <project path="build" name="android_build" remote="tp-du" revision="m-caf"/>
+  <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="tp-du" revision="m-caf"/>
+  <project path="device/hp/tenderloin-common" name="android_device_hp_tenderloin-common" remote="tp-du" revision="m-caf"/>
+  <project path="external/backports-wireless" name="android_external_backports-wireless" remote="tp-du" revision="m-caf"/>
+  <project path="external/stlport" name="android_external_stlport" remote="tp-du" revision="m-caf"/>
+  <project path="frameworks/native" name="android_frameworks_native" remote="tp-du" revision="m-caf"/>
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" revision="m-caf-8960" remote="tp-du" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" revision="m-caf-8960" remote="tp-du" />
+  <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="tp-du" revision="m-caf"/>
+  <project path="system/bt" name="android_system_bt" remote="tp-du" revision="m-caf"/>
+  <project path="system/core" name="android_system_core" remote="tp-du" revision="m-caf"/>
+  <project path="system/vold" name="android_system_vold" remote="tp-du" revision="m-caf"/>
+  <project path="vendor/du" name="android_vendor_du" remote="tp-du" revision="m-caf"/>
+
+</manifest>
